@@ -8,7 +8,7 @@ public class FibonacciFun {
     
     FibonacciFun fibonacci = new FibonacciFun();
     
-    System.out.print("Please enter a max number: ");
+    System.out.print("Please enter a max number to calculate up to: ");
     Console console = System.console();
     
     String valueUpToAsString = console.readLine();
