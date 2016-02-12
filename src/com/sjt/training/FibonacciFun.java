@@ -17,7 +17,7 @@ public class FibonacciFun {
     FibonacciResults results = fibonacci.calculateFibonacci(valueUpTo);
     
     System.out.println("\n\nNumbers used in calculation: " + results.getSeriesUsed());
-    System.out.println("\nMax Calculation: " + results.getCalculatedFibonacci());
+    System.out.println("\nFibonacci Calculated to: " + results.getCalculatedFibonacci());
     
   }
   
