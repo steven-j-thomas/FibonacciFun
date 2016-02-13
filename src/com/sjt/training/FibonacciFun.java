@@ -23,11 +23,10 @@ public class FibonacciFun {
   
   private FibonacciResults calculateFibonacci(long valueUpTo) {
     
-    long f1 = 0;
     long f2 = 1;
     long calculatedResult = 1;
     long nextResult = 1;
-    StringBuilder numbersUsed = new StringBuilder("" + f1);
+    StringBuilder numbersUsed = new StringBuilder("0");
     
     while (nextResult < valueUpTo) {
       
@@ -36,7 +35,6 @@ public class FibonacciFun {
       nextResult += f2;
       numbersUsed.append(", " + f2);
       
-      f1 = f2;
       f2 = calculatedResult;
     }
 
