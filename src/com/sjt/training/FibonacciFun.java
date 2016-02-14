@@ -27,7 +27,7 @@ public class FibonacciFun {
     long f2 = 1;
     long calculatedResult = 1;
     long nextResult = 1;
-    StringBuilder numbersUsed = new StringBuilder("" + f1);
+    StringBuilder numbersUsed = new StringBuilder("").append(f1);
     
     while (nextResult < valueUpTo) {
       
