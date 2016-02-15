@@ -23,7 +23,6 @@ public class FibonacciFun {
   
   private FibonacciResults calculateFibonacci(long valueUpTo) {
     
-    //starting value of 1
     long f2 = 1;
     long calculatedResult = 1;
     long nextResult = 1;
