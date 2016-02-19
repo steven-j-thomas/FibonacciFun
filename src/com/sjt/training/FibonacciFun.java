@@ -28,6 +28,7 @@ public class FibonacciFun {
     long nextResult = 1;
     StringBuilder numbersUsed = new StringBuilder("0");
     
+    //loop until the calculation passes the entered valueUpTo
     while (nextResult < valueUpTo) {
       
       calculatedResult = nextResult;
